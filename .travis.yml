@@ -21,6 +21,8 @@ deploy: # see README for details on these keys
   # prevents travis from deleting the build
   skip_cleanup: true
   provider: heroku
+  on:
+    branch: deploy
   # app should be your heroku app name; see README
   app: toenails-dev-test
   # the secure key indicates an encrypted value; see README
