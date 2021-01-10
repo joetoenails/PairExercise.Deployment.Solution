@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>NOW THIS IS AN UPDATE</h1>
+        <h1>NOW THIS IS AN UPDATE,BIG UPDATE!!!!</h1>
         <UserList users={this.state.users} />)
       </div>
     );
